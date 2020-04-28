@@ -5,7 +5,7 @@
 `timescale 1ns / 1ps //time-unit = 1ns, precision = 10ps
 `include "adder.v"
 	module adder_tb3;
-
+		
 		// Inputs
 		reg [5:0] x,y;
 		
@@ -13,19 +13,19 @@
 		wire [5:0] s;
 		wire cout;
 		
+		parameter size = 4096;				// number of test vectors
+		
 		// Variables
-		integer i;							// loop index
-		integer size;						// number of test vectors
+		integer i;							// loop index					
 		reg [31:0] errors;					// register for muber of storing errors
-		reg errors_positions[4096:1];		// array indicating errors on every position: reg name[size:1]
-		reg [18:0] test_vectors [4095:0];	// array of registers in order to load all test vectors: reg [18:0] name [size-1:0]
+		reg errors_positions[size:1];		// array indicating errors on every position: reg name[size:1]
+		reg [18:0] test_vectors [size-1:0];	// array of registers in order to load all test vectors: reg [18:0] name [size-1:0]
 		reg [6:0] s_exp;					// register to store expected sum (with carry out) from test_vector array
 		
 		adder add (x,y,s,cout);				// adder instance
 
 		initial begin
-			// number of rows in test_vector.tv  2^6*2^6 = 64*64 = 4096 - all possible patterns
-			size = 64*64;	
+
 			errors = 0;
 			$readmemb("test_vectors.txt",test_vectors);		
 			

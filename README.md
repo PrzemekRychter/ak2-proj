@@ -1,7 +1,5 @@
-<p align="justify">Implementacja fizyczna układów cyfrowych</p>
-
+Implementacja fizyczna układów cyfrowych
 Architektura komputerów 2
-
 Projekt
 
 Celem projektu  jest  synteza  logiczna  fizyczna 6-bitowego 

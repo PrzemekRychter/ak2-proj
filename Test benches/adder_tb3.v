@@ -22,10 +22,11 @@
 		reg [18:0] test_vectors [size-1:0];	// array of registers in order to load all test vectors: reg [18:0] name [size-1:0]
 		reg [6:0] s_exp;					// register to store expected sum (with carry out) from test_vector array
 		
-		adder add (x,y,s,cout);				// adder instance
+		adder uut (.X(x),.Y(y),.S(s),.cout(cout));				// Instantiate the Unit Under Test
 
 		initial begin
-
+		    $dumpfile("test.vcd");
+			$dumpvars(1,adder_tb3);
 			errors = 0;
 			$readmemb("test_vectors.txt",test_vectors);		
 			

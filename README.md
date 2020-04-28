@@ -1,4 +1,4 @@
-<p align="justify>Implementacja fizyczna układów cyfrowych</p>
+<p align="justify">Implementacja fizyczna układów cyfrowych</p>
 
 Architektura komputerów 2
 

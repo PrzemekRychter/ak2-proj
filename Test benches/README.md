@@ -6,7 +6,7 @@
   + &gt;iverilog   adder_tb3.v
 * Uruchomić test bench
   + &gt;vvp a.out
- * Uruchomić GTKwave
+* Uruchomić GTKwave
   + &gt;gtkwave test.vcd
 
     

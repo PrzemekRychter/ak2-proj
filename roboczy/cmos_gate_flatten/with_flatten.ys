@@ -7,11 +7,13 @@
 
 # read design
 read_verilog adder.v
-hierarchy  -top adder
+hierarchy  -top  adder
 
 
 # high-level synthesis
-flatten; 
+opt_clean; fsm_map; flatten
+
+techmap;
 
 # low-level synthesis
 
@@ -20,8 +22,7 @@ flatten;
 dfflibmap -liberty cmos_cells.lib
 abc -liberty cmos_cells.lib
 
-# split larger signals
-# splitnets -ports; opt
+
 
 write_verilog with_flatten.v
 show

@@ -3,84 +3,127 @@
 (* top =  1  *)
 (* src = "adder.v:8" *)
 module adder(X, Y, S, cout);
+  (* src = "adder.v:36|sfco.v:10" *)
+  wire _000_;
+  (* src = "adder.v:21|gph.v:8" *)
+  wire _001_;
+  (* src = "adder.v:12" *)
+  wire _002_;
+  (* src = "adder.v:12" *)
+  wire _003_;
+  (* src = "adder.v:12" *)
+  wire _004_;
+  (* src = "adder.v:12" *)
+  wire _005_;
+  (* src = "adder.v:12" *)
+  wire _006_;
+  (* src = "adder.v:10" *)
+  wire _007_;
+  (* src = "adder.v:10" *)
+  wire _008_;
+  (* src = "adder.v:10" *)
+  wire _009_;
+  (* src = "adder.v:10" *)
+  wire _010_;
+  (* src = "adder.v:10" *)
+  wire _011_;
+  (* src = "adder.v:10" *)
+  wire _012_;
+  (* src = "adder.v:11" *)
+  wire _013_;
+  (* src = "adder.v:11" *)
+  wire _014_;
+  (* src = "adder.v:11" *)
+  wire _015_;
+  (* src = "adder.v:11" *)
+  wire _016_;
+  (* src = "adder.v:11" *)
+  wire _017_;
+  (* src = "adder.v:11" *)
+  wire _018_;
+  wire _019_;
+  wire _020_;
+  wire _021_;
+  wire _022_;
+  wire _023_;
+  wire _024_;
+  wire _025_;
+  wire _026_;
+  wire _027_;
+  wire _028_;
+  wire _029_;
+  wire _030_;
+  wire _031_;
+  wire _032_;
+  wire _033_;
+  wire _034_;
+  wire _035_;
+  wire _036_;
+  wire _037_;
+  wire _038_;
+  wire _039_;
+  wire _040_;
+  wire _041_;
+  wire _042_;
+  wire _043_;
+  wire _044_;
+  wire _045_;
+  wire _046_;
+  wire _047_;
+  wire _048_;
+  wire _049_;
+  wire _050_;
+  wire _051_;
+  wire _052_;
+  wire _053_;
+  wire _054_;
+  wire _055_;
+  wire _056_;
+  wire _057_;
+  wire _058_;
+  wire _059_;
+  wire _060_;
+  wire _061_;
+  wire _062_;
+  wire _063_;
+  wire _064_;
+  wire _065_;
+  wire _066_;
+  wire _067_;
+  wire _068_;
+  wire _069_;
+  wire _070_;
+  wire _071_;
+  wire _072_;
+  wire _073_;
+  wire _074_;
+  wire _075_;
+  wire _076_;
+  wire _077_;
+  wire _078_;
+  wire _079_;
+  wire _080_;
+  wire _081_;
+  wire _082_;
+  wire _083_;
+  wire _084_;
+  wire _085_;
+  wire _086_;
+  wire _087_;
   (* src = "adder.v:30|sfco.v:12" *)
-  wire _00_;
-  (* src = "adder.v:30|sfco.v:12" *)
-  wire _01_;
+  wire _088_;
   (* src = "adder.v:38|sfco.v:12" *)
-  wire _02_;
-  (* src = "adder.v:38|sfco.v:12" *)
-  wire _03_;
+  wire _089_;
   (* src = "adder.v:34|sfco.v:12" *)
-  wire _04_;
-  (* src = "adder.v:34|sfco.v:12" *)
-  wire _05_;
+  wire _090_;
   (* src = "adder.v:39|sfco.v:12" *)
-  wire _06_;
-  (* src = "adder.v:39|sfco.v:12" *)
-  wire _07_;
+  wire _091_;
   (* src = "adder.v:36|sfco.v:12" *)
-  wire _08_;
-  (* src = "adder.v:36|sfco.v:12" *)
-  wire _09_;
-  (* src = "adder.v:31|fco.v:10" *)
-  wire _10_;
+  wire _092_;
   (* src = "adder.v:31|fco.v:9" *)
-  wire _11_;
-  (* src = "adder.v:31|fco.v:9" *)
-  wire _12_;
-  (* src = "adder.v:32|fco.v:10" *)
-  wire _13_;
+  wire _093_;
   (* src = "adder.v:32|fco.v:9" *)
-  wire _14_;
-  (* src = "adder.v:32|fco.v:9" *)
-  wire _15_;
-  (* src = "adder.v:21|gph.v:10" *)
-  wire _16_;
-  (* src = "adder.v:21|gph.v:11" *)
-  wire _17_;
-  (* src = "adder.v:21|gph.v:12" *)
-  wire _18_;
-  (* src = "adder.v:22|gph.v:10" *)
-  wire _19_;
-  (* src = "adder.v:22|gph.v:11" *)
-  wire _20_;
-  (* src = "adder.v:22|gph.v:12" *)
-  wire _21_;
-  (* src = "adder.v:23|gph.v:10" *)
-  wire _22_;
-  (* src = "adder.v:23|gph.v:11" *)
-  wire _23_;
-  (* src = "adder.v:23|gph.v:12" *)
-  wire _24_;
-  (* src = "adder.v:24|gph.v:10" *)
-  wire _25_;
-  (* src = "adder.v:24|gph.v:11" *)
-  wire _26_;
-  (* src = "adder.v:24|gph.v:12" *)
-  wire _27_;
-  (* src = "adder.v:25|gph.v:10" *)
-  wire _28_;
-  (* src = "adder.v:25|gph.v:11" *)
-  wire _29_;
-  (* src = "adder.v:25|gph.v:12" *)
-  wire _30_;
-  (* src = "adder.v:26|gph.v:10" *)
-  wire _31_;
-  (* src = "adder.v:26|gph.v:11" *)
-  wire _32_;
-  (* src = "adder.v:26|gph.v:12" *)
-  wire _33_;
-  (* src = "adder.v:43" *)
-  wire _34_;
-  (* src = "adder.v:44" *)
-  wire _35_;
-  (* src = "adder.v:45" *)
-  wire _36_;
-  (* src = "adder.v:46" *)
-  wire _37_;
-  (* src = "adder.v:47" *)
-  wire _38_;
+  wire _094_;
   (* src = "adder.v:18" *)
   wire G10;
   (* src = "adder.v:30|sfco.v:9" *)
@@ -224,12 +267,11 @@ module adder(X, Y, S, cout);
   (* src = "adder.v:17" *)
   wire [5:0] Hii;
   (* src = "adder.v:18" *)
-  wire P10;
-  (* src = "adder.v:18" *)
   wire P32;
   (* src = "adder.v:18" *)
   wire P54;
   (* src = "adder.v:16" *)
+  (* unused_bits = "0" *)
   wire [5:0] Pii;
   (* src = "adder.v:12" *)
   output [5:0] S;
@@ -239,139 +281,472 @@ module adder(X, Y, S, cout);
   input [5:0] Y;
   (* src = "adder.v:13" *)
   output cout;
-  assign _00_ = \G10x.Pa  & (* src = "adder.v:30|sfco.v:12" *) \G10x.Gb ;
-  assign _01_ = \G10x.Ga  | (* src = "adder.v:30|sfco.v:12" *) _00_;
-  assign _02_ = \G20x.Pa  & (* src = "adder.v:38|sfco.v:12" *) \G20x.Gb ;
-  assign _03_ = \G20x.Ga  | (* src = "adder.v:38|sfco.v:12" *) _02_;
-  assign _04_ = \G30x.Pa  & (* src = "adder.v:34|sfco.v:12" *) \G30x.Gb ;
-  assign _05_ = \G30x.Ga  | (* src = "adder.v:34|sfco.v:12" *) _04_;
-  assign _06_ = \G40x.Pa  & (* src = "adder.v:39|sfco.v:12" *) \G40x.Gb ;
-  assign _07_ = \G40x.Ga  | (* src = "adder.v:39|sfco.v:12" *) _06_;
-  assign _08_ = \G50x.Pa  & (* src = "adder.v:36|sfco.v:12" *) \G50x.Gb ;
-  assign _09_ = \G50x.Ga  | (* src = "adder.v:36|sfco.v:12" *) _08_;
-  assign _10_ = \GP32.Pa  & (* src = "adder.v:31|fco.v:10" *) \GP32.Pb ;
-  assign _11_ = \GP32.Pa  & (* src = "adder.v:31|fco.v:9" *) \GP32.Gb ;
-  assign _12_ = \GP32.Ga  | (* src = "adder.v:31|fco.v:9" *) _11_;
-  assign _13_ = \GP54.Pa  & (* src = "adder.v:32|fco.v:10" *) \GP54.Pb ;
-  assign _14_ = \GP54.Pa  & (* src = "adder.v:32|fco.v:9" *) \GP54.Gb ;
-  assign _15_ = \GP54.Ga  | (* src = "adder.v:32|fco.v:9" *) _14_;
-  assign _16_ = \GPH0.x  & (* src = "adder.v:21|gph.v:10" *) \GPH0.y ;
-  assign _17_ = \GPH0.x  | (* src = "adder.v:21|gph.v:11" *) \GPH0.y ;
-  assign _18_ = \GPH0.x  ^ (* src = "adder.v:21|gph.v:12" *) \GPH0.y ;
-  assign _19_ = \GPH1.x  & (* src = "adder.v:22|gph.v:10" *) \GPH1.y ;
-  assign _20_ = \GPH1.x  | (* src = "adder.v:22|gph.v:11" *) \GPH1.y ;
-  assign _21_ = \GPH1.x  ^ (* src = "adder.v:22|gph.v:12" *) \GPH1.y ;
-  assign _22_ = \GPH2.x  & (* src = "adder.v:23|gph.v:10" *) \GPH2.y ;
-  assign _23_ = \GPH2.x  | (* src = "adder.v:23|gph.v:11" *) \GPH2.y ;
-  assign _24_ = \GPH2.x  ^ (* src = "adder.v:23|gph.v:12" *) \GPH2.y ;
-  assign _25_ = \GPH3.x  & (* src = "adder.v:24|gph.v:10" *) \GPH3.y ;
-  assign _26_ = \GPH3.x  | (* src = "adder.v:24|gph.v:11" *) \GPH3.y ;
-  assign _27_ = \GPH3.x  ^ (* src = "adder.v:24|gph.v:12" *) \GPH3.y ;
-  assign _28_ = \GPH4.x  & (* src = "adder.v:25|gph.v:10" *) \GPH4.y ;
-  assign _29_ = \GPH4.x  | (* src = "adder.v:25|gph.v:11" *) \GPH4.y ;
-  assign _30_ = \GPH4.x  ^ (* src = "adder.v:25|gph.v:12" *) \GPH4.y ;
-  assign _31_ = \GPH5.x  & (* src = "adder.v:26|gph.v:10" *) \GPH5.y ;
-  assign _32_ = \GPH5.x  | (* src = "adder.v:26|gph.v:11" *) \GPH5.y ;
-  assign _33_ = \GPH5.x  ^ (* src = "adder.v:26|gph.v:12" *) \GPH5.y ;
-  assign _34_ = Hii[1] ^ (* src = "adder.v:43" *) Gii[0];
-  assign _35_ = Hii[2] ^ (* src = "adder.v:44" *) G10;
-  assign _36_ = Hii[3] ^ (* src = "adder.v:45" *) G20;
-  assign _37_ = Hii[4] ^ (* src = "adder.v:46" *) G30;
-  assign _38_ = Hii[5] ^ (* src = "adder.v:47" *) G40;
-  assign S[0] = Hii[0];
-  assign S[1] = _34_;
-  assign S[2] = _35_;
-  assign S[3] = _36_;
-  assign S[4] = _37_;
-  assign S[5] = _38_;
+  NOT _095_ (
+    .A(_011_),
+    .Y(_021_)
+  );
+  NOT _096_ (
+    .A(_017_),
+    .Y(_022_)
+  );
+  NOT _097_ (
+    .A(_010_),
+    .Y(_023_)
+  );
+  NOT _098_ (
+    .A(_016_),
+    .Y(_024_)
+  );
+  NOT _099_ (
+    .A(_009_),
+    .Y(_025_)
+  );
+  NOT _100_ (
+    .A(_015_),
+    .Y(_026_)
+  );
+  NOT _101_ (
+    .A(_008_),
+    .Y(_027_)
+  );
+  NOT _102_ (
+    .A(_014_),
+    .Y(_028_)
+  );
+  NOT _103_ (
+    .A(_007_),
+    .Y(_029_)
+  );
+  NOT _104_ (
+    .A(_013_),
+    .Y(_030_)
+  );
+  NOR _105_ (
+    .A(_029_),
+    .B(_030_),
+    .Y(_031_)
+  );
+  NAND _106_ (
+    .A(_007_),
+    .B(_013_),
+    .Y(_032_)
+  );
+  NOR _107_ (
+    .A(_027_),
+    .B(_028_),
+    .Y(_033_)
+  );
+  NAND _108_ (
+    .A(_008_),
+    .B(_014_),
+    .Y(_034_)
+  );
+  NOR _109_ (
+    .A(_008_),
+    .B(_014_),
+    .Y(_035_)
+  );
+  NOT _110_ (
+    .A(_035_),
+    .Y(_036_)
+  );
+  NOR _111_ (
+    .A(_033_),
+    .B(_035_),
+    .Y(_037_)
+  );
+  NAND _112_ (
+    .A(_034_),
+    .B(_036_),
+    .Y(_038_)
+  );
+  NAND _113_ (
+    .A(_032_),
+    .B(_037_),
+    .Y(_039_)
+  );
+  NAND _114_ (
+    .A(_031_),
+    .B(_038_),
+    .Y(_040_)
+  );
+  NAND _115_ (
+    .A(_039_),
+    .B(_040_),
+    .Y(_002_)
+  );
+  NOR _116_ (
+    .A(_025_),
+    .B(_026_),
+    .Y(_041_)
+  );
+  NAND _117_ (
+    .A(_009_),
+    .B(_015_),
+    .Y(_042_)
+  );
+  NOR _118_ (
+    .A(_009_),
+    .B(_015_),
+    .Y(_043_)
+  );
+  NAND _119_ (
+    .A(_025_),
+    .B(_026_),
+    .Y(_044_)
+  );
+  NOR _120_ (
+    .A(_041_),
+    .B(_043_),
+    .Y(_045_)
+  );
+  NOR _121_ (
+    .A(_032_),
+    .B(_035_),
+    .Y(_046_)
+  );
+  NOT _122_ (
+    .A(_046_),
+    .Y(_047_)
+  );
+  NOR _123_ (
+    .A(_033_),
+    .B(_046_),
+    .Y(_048_)
+  );
+  NAND _124_ (
+    .A(_034_),
+    .B(_047_),
+    .Y(_049_)
+  );
+  NOR _125_ (
+    .A(_045_),
+    .B(_049_),
+    .Y(_050_)
+  );
+  NOR _126_ (
+    .A(_043_),
+    .B(_048_),
+    .Y(_051_)
+  );
+  NAND _127_ (
+    .A(_044_),
+    .B(_049_),
+    .Y(_052_)
+  );
+  NOR _128_ (
+    .A(_041_),
+    .B(_052_),
+    .Y(_053_)
+  );
+  NOR _129_ (
+    .A(_050_),
+    .B(_053_),
+    .Y(_003_)
+  );
+  NOR _130_ (
+    .A(_023_),
+    .B(_024_),
+    .Y(_054_)
+  );
+  NAND _131_ (
+    .A(_010_),
+    .B(_016_),
+    .Y(_055_)
+  );
+  NOR _132_ (
+    .A(_010_),
+    .B(_016_),
+    .Y(_056_)
+  );
+  NAND _133_ (
+    .A(_023_),
+    .B(_024_),
+    .Y(_057_)
+  );
+  NOR _134_ (
+    .A(_054_),
+    .B(_056_),
+    .Y(_058_)
+  );
+  NOR _135_ (
+    .A(_041_),
+    .B(_051_),
+    .Y(_059_)
+  );
+  NAND _136_ (
+    .A(_042_),
+    .B(_052_),
+    .Y(_060_)
+  );
+  NOR _137_ (
+    .A(_058_),
+    .B(_060_),
+    .Y(_061_)
+  );
+  NOR _138_ (
+    .A(_056_),
+    .B(_059_),
+    .Y(_062_)
+  );
+  NAND _139_ (
+    .A(_057_),
+    .B(_060_),
+    .Y(_063_)
+  );
+  NOR _140_ (
+    .A(_054_),
+    .B(_063_),
+    .Y(_064_)
+  );
+  NOR _141_ (
+    .A(_061_),
+    .B(_064_),
+    .Y(_004_)
+  );
+  NOR _142_ (
+    .A(_021_),
+    .B(_022_),
+    .Y(_065_)
+  );
+  NAND _143_ (
+    .A(_011_),
+    .B(_017_),
+    .Y(_066_)
+  );
+  NOR _144_ (
+    .A(_011_),
+    .B(_017_),
+    .Y(_067_)
+  );
+  NAND _145_ (
+    .A(_021_),
+    .B(_022_),
+    .Y(_068_)
+  );
+  NOR _146_ (
+    .A(_065_),
+    .B(_067_),
+    .Y(_069_)
+  );
+  NOR _147_ (
+    .A(_054_),
+    .B(_062_),
+    .Y(_070_)
+  );
+  NAND _148_ (
+    .A(_055_),
+    .B(_063_),
+    .Y(_071_)
+  );
+  NOR _149_ (
+    .A(_069_),
+    .B(_071_),
+    .Y(_072_)
+  );
+  NOR _150_ (
+    .A(_067_),
+    .B(_070_),
+    .Y(_073_)
+  );
+  NAND _151_ (
+    .A(_068_),
+    .B(_071_),
+    .Y(_074_)
+  );
+  NOR _152_ (
+    .A(_065_),
+    .B(_074_),
+    .Y(_075_)
+  );
+  NOR _153_ (
+    .A(_072_),
+    .B(_075_),
+    .Y(_005_)
+  );
+  NAND _154_ (
+    .A(_012_),
+    .B(_018_),
+    .Y(_076_)
+  );
+  NOT _155_ (
+    .A(_076_),
+    .Y(_077_)
+  );
+  NOR _156_ (
+    .A(_012_),
+    .B(_018_),
+    .Y(_078_)
+  );
+  NAND _157_ (
+    .A(_019_),
+    .B(_020_),
+    .Y(_079_)
+  );
+  NOR _158_ (
+    .A(_077_),
+    .B(_078_),
+    .Y(_080_)
+  );
+  NAND _159_ (
+    .A(_076_),
+    .B(_079_),
+    .Y(_081_)
+  );
+  NOR _160_ (
+    .A(_065_),
+    .B(_073_),
+    .Y(_082_)
+  );
+  NAND _161_ (
+    .A(_066_),
+    .B(_074_),
+    .Y(_083_)
+  );
+  NAND _162_ (
+    .A(_081_),
+    .B(_083_),
+    .Y(_084_)
+  );
+  NAND _163_ (
+    .A(_080_),
+    .B(_082_),
+    .Y(_085_)
+  );
+  NAND _164_ (
+    .A(_084_),
+    .B(_085_),
+    .Y(_006_)
+  );
+  NAND _165_ (
+    .A(_079_),
+    .B(_083_),
+    .Y(_086_)
+  );
+  NAND _166_ (
+    .A(_076_),
+    .B(_086_),
+    .Y(_000_)
+  );
+  NOR _167_ (
+    .A(_007_),
+    .B(_013_),
+    .Y(_087_)
+  );
+  NOR _168_ (
+    .A(_031_),
+    .B(_087_),
+    .Y(_001_)
+  );
+  NOT _169_ (
+    .A(_012_),
+    .Y(_019_)
+  );
+  NOT _170_ (
+    .A(_018_),
+    .Y(_020_)
+  );
   assign cout = G50;
+  assign S[0] = Hii[0];
+  assign Gii[0] = \GPH0.G ;
+  assign Hii[0] = \GPH0.H ;
+  assign Pii[0] = \GPH0.P ;
   assign \GPH0.x  = X[0];
   assign \GPH0.y  = Y[0];
-  assign Gii[0] = \GPH0.G ;
-  assign Pii[0] = \GPH0.P ;
-  assign Hii[0] = \GPH0.H ;
-  assign \GPH0.G  = _16_;
-  assign \GPH0.P  = _17_;
-  assign \GPH0.H  = _18_;
+  assign Gii[1] = \GPH1.G ;
+  assign Hii[1] = \GPH1.H ;
+  assign Pii[1] = \GPH1.P ;
   assign \GPH1.x  = X[1];
   assign \GPH1.y  = Y[1];
-  assign Gii[1] = \GPH1.G ;
-  assign Pii[1] = \GPH1.P ;
-  assign Hii[1] = \GPH1.H ;
-  assign \GPH1.G  = _19_;
-  assign \GPH1.P  = _20_;
-  assign \GPH1.H  = _21_;
+  assign Gii[2] = \GPH2.G ;
+  assign Hii[2] = \GPH2.H ;
+  assign Pii[2] = \GPH2.P ;
   assign \GPH2.x  = X[2];
   assign \GPH2.y  = Y[2];
-  assign Gii[2] = \GPH2.G ;
-  assign Pii[2] = \GPH2.P ;
-  assign Hii[2] = \GPH2.H ;
-  assign \GPH2.G  = _22_;
-  assign \GPH2.P  = _23_;
-  assign \GPH2.H  = _24_;
+  assign Gii[3] = \GPH3.G ;
+  assign Hii[3] = \GPH3.H ;
+  assign Pii[3] = \GPH3.P ;
   assign \GPH3.x  = X[3];
   assign \GPH3.y  = Y[3];
-  assign Gii[3] = \GPH3.G ;
-  assign Pii[3] = \GPH3.P ;
-  assign Hii[3] = \GPH3.H ;
-  assign \GPH3.G  = _25_;
-  assign \GPH3.P  = _26_;
-  assign \GPH3.H  = _27_;
+  assign Gii[4] = \GPH4.G ;
+  assign Hii[4] = \GPH4.H ;
+  assign Pii[4] = \GPH4.P ;
   assign \GPH4.x  = X[4];
   assign \GPH4.y  = Y[4];
-  assign Gii[4] = \GPH4.G ;
-  assign Pii[4] = \GPH4.P ;
-  assign Hii[4] = \GPH4.H ;
-  assign \GPH4.G  = _28_;
-  assign \GPH4.P  = _29_;
-  assign \GPH4.H  = _30_;
+  assign Gii[5] = \GPH5.G ;
+  assign Hii[5] = \GPH5.H ;
+  assign Pii[5] = \GPH5.P ;
   assign \GPH5.x  = X[5];
   assign \GPH5.y  = Y[5];
-  assign Gii[5] = \GPH5.G ;
-  assign Pii[5] = \GPH5.P ;
-  assign Hii[5] = \GPH5.H ;
-  assign \GPH5.G  = _31_;
-  assign \GPH5.P  = _32_;
-  assign \GPH5.H  = _33_;
   assign \G10x.Ga  = Gii[1];
-  assign \G10x.Pa  = Pii[1];
-  assign \G10x.Gb  = Gii[0];
   assign G10 = \G10x.Gab ;
-  assign \G10x.Gab  = _01_;
+  assign \G10x.Gb  = Gii[0];
+  assign \G10x.Pa  = Pii[1];
   assign \GP32.Ga  = Gii[3];
-  assign \GP32.Pa  = Pii[3];
-  assign \GP32.Gb  = Gii[2];
-  assign \GP32.Pb  = Pii[2];
   assign G32 = \GP32.Gab ;
+  assign \GP32.Gb  = Gii[2];
+  assign \GP32.Pa  = Pii[3];
   assign P32 = \GP32.Pab ;
-  assign \GP32.Gab  = _12_;
-  assign \GP32.Pab  = _10_;
+  assign \GP32.Pb  = Pii[2];
   assign \GP54.Ga  = Gii[5];
-  assign \GP54.Pa  = Pii[5];
-  assign \GP54.Gb  = Gii[4];
-  assign \GP54.Pb  = Pii[4];
   assign G54 = \GP54.Gab ;
+  assign \GP54.Gb  = Gii[4];
+  assign \GP54.Pa  = Pii[5];
   assign P54 = \GP54.Pab ;
-  assign \GP54.Gab  = _15_;
-  assign \GP54.Pab  = _13_;
+  assign \GP54.Pb  = Pii[4];
   assign \G30x.Ga  = G32;
-  assign \G30x.Pa  = P32;
-  assign \G30x.Gb  = G10;
   assign G30 = \G30x.Gab ;
-  assign \G30x.Gab  = _05_;
+  assign \G30x.Gb  = G10;
+  assign \G30x.Pa  = P32;
   assign \G50x.Ga  = G54;
-  assign \G50x.Pa  = P54;
-  assign \G50x.Gb  = G30;
   assign G50 = \G50x.Gab ;
-  assign \G50x.Gab  = _09_;
+  assign \G50x.Gb  = G30;
+  assign \G50x.Pa  = P54;
   assign \G20x.Ga  = Gii[2];
-  assign \G20x.Pa  = Pii[2];
-  assign \G20x.Gb  = G10;
   assign G20 = \G20x.Gab ;
-  assign \G20x.Gab  = _03_;
+  assign \G20x.Gb  = G10;
+  assign \G20x.Pa  = Pii[2];
   assign \G40x.Ga  = Gii[4];
-  assign \G40x.Pa  = Pii[4];
-  assign \G40x.Gb  = G30;
   assign G40 = \G40x.Gab ;
-  assign \G40x.Gab  = _07_;
+  assign \G40x.Gb  = G30;
+  assign \G40x.Pa  = Pii[4];
+  assign _012_ = X[5];
+  assign _018_ = Y[5];
+  assign _011_ = X[4];
+  assign _017_ = Y[4];
+  assign _010_ = X[3];
+  assign _016_ = Y[3];
+  assign _009_ = X[2];
+  assign _015_ = Y[2];
+  assign _008_ = X[1];
+  assign _014_ = Y[1];
+  assign _007_ = X[0];
+  assign _013_ = Y[0];
+  assign S[1] = _002_;
+  assign S[2] = _003_;
+  assign S[3] = _004_;
+  assign S[4] = _005_;
+  assign S[5] = _006_;
+  assign \G50x.Gab  = _000_;
+  assign \GPH0.H  = _001_;
+	cell(NOT) {
+    area: 3;
+    pin(A) { direction: input; }
+    pin(Y) { direction: output;
+              function: "A'"; }
+  }
+  cell(NAND) {
+    area: 4;
+    pin(A) { direction: input; }
+    pin(B) { direction: input; }
+    pin(Y) { direction: output;
+             function: "(A*B)'"; }
+  }
+  cell(NOR) {
+    area: 4;
+    pin(A) { direction: input; }
+    pin(B) { direction: input; }
+    pin(Y) { direction: output;
+             function: "(A+B)'"; }
+  }
 endmodule

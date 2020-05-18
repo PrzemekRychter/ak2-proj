@@ -3,7 +3,7 @@
 //
 
 `timescale 1ns / 1ps //time-unit = 1ns, precision = 10ps
-`include "gate_with_flatten.v"
+`include "with_flatten_verilog.v"
 	module tb;
 		
 		// Inputs
@@ -26,7 +26,7 @@
 
 		initial begin
 		    $dumpfile("test.vcd");
-			$dumpvars(1,moj_tb);
+			$dumpvars(1,tb);
 			errors = 0;
 			$readmemb("test_vectors.txt",test_vectors);		
 			

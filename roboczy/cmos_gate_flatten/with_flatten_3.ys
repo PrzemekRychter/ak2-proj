@@ -1,0 +1,21 @@
+# wczytanie pliku
+read_verilog adder.v
+
+#spłaszczanie wykresu - wczytywanie modułów pobocznych
+synth -flatten
+
+#synteza wysokiego poziomu
+proc; opt; fsm; opt; memory; opt
+
+
+techmap; opt
+
+# biblioteki gate level
+dfflibmap -liberty cmos_cells.lib
+abc -liberty cmos_cells.lib
+
+# ładniejszy zapis portów wejściowych
+splitnets -ports; opt
+
+write_verilog with_flatten_3.v
+show

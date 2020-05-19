@@ -3,7 +3,7 @@
 //
 
 `timescale 1ns / 1ps //time-unit = 1ns, precision = 10ps
-`include "with_flatten_verilog.v"
+`include "with_flatten_3.v"
 	module tb;
 		
 		// Inputs

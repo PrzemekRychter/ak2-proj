@@ -529,7 +529,7 @@ module adder(\X[0] , \X[1] , \X[2] , \X[3] , \X[4] , \X[5] , \Y[0] , \Y[1] , \Y[
 endmodule
 
 
-
+/*Dodatkowe moduły potrzebne do przeprowadzania test benchu
 module NOT(A, Y);
 input A;
 output Y;
@@ -547,3 +547,4 @@ input A, B;
 output Y;
 assign Y = ~(A | B);
 endmodule
+*/

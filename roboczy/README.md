@@ -1,1 +1,1 @@
-FOLDER DO WRZUCANIA AKTUALNEJ PRACY
+Folder z różnymi rodzajami przeprowadzonych syntez. 

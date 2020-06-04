@@ -7,7 +7,7 @@
 	module sfco ( Ga, Pa, Gb, Gab); 
 		
 		input Ga, Pa, Gb;
-		output Gab, Pab;
+		output Gab;
 		
 		assign Gab = Ga | (Pa & Gb);
 	

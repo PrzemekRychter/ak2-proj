@@ -1,1 +1,1 @@
-Folder z różnymi rodzajami przeprowadzonych syntez. 
+Folder z różnymi rodzajami przeprowadzonych przez nas syntez na potrzeby projektu. 

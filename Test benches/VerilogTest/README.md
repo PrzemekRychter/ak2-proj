@@ -8,5 +8,6 @@
   + &gt;vvp a.out
 * Uruchomić GTKwave
   + &gt;gtkwave test.vcd
+* Resztę testbenchow urachamia się analogicznie poprzez umieszczenie pliku z testbenchem oraz odpowiedniego kodu sumatora w folderze   
 
     

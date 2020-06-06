@@ -1,3 +1,8 @@
+# Skrypt Syntezyjący
+# Użycie:		>cd \yosys-win32-mxebin-0.9
+#				>yosys with_flatten_3.ys
+# Diagram zostanie zapisany do pliku show.dot
+
 read_verilog adder.v
 
 synth -flatten
